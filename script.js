@@ -1,6 +1,6 @@
 // script.js
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+const supabaseUrl = https://blzbadoqpexcjppnkhih.supabase.co';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJsemJhZG9xcGV4Y2pwcG5raGloIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE0MzMwODAsImV4cCI6MjA1NzAwOTA4MH0.mrZQ_8R6olv47bNKzG9-wYcp4A6rFPU20EQ2NGL0750';
 const supabase = supabase.createClient(supabaseUrl, supabaseAnonKey);
 
 document.getElementById('signup-form').addEventListener('submit', async (event) => {
